@@ -5,8 +5,8 @@ var gProjects = createProjects();
 
 function createProjects() {
     return [
-        createProject('Book Store', 'Admin panel for book store managers', '',
-         'https://ronavnery.github.io/book-shop/', 'JS, jQuery, Bootstrap, FlexBox'),
+        createProject('Login Page', 'Simplicity is key', '',
+        'https://ronavnery.github.io/CA-SafeContent/', 'JS, jQuery, FlexBox'),
          
         createProject('Mine Sweeper', 'The good old game got a face lift', '',
          'https://ronavnery.github.io/CA-minesweeper/', 'Recursive JS, Matrix, CSS'),
@@ -14,14 +14,15 @@ function createProjects() {
         createProject('Todos', 'Get things done', '',
          'https://ronavnery.github.io/CA-todos/', 'JS, CSS, FlexBox'),
 
-         createProject('Guess Me', 'Self learning magician', '',
-         'https://ronavnery.github.io/CA-GuessMe/', 'JS, jQuery, CSS, FlexBox'),
-
          createProject('Unusual Cart', 'How a cart will look in 50yrs time', '',
          'https://ronavnery.github.io/CA-FutureCart/', 'JS, CSS, FlexBox'),
 
-         createProject('Login Page', 'Simplicity is key', '',
-         'https://ronavnery.github.io/CA-SafeContent/', 'JS, jQuery, FlexBox')
+         createProject('Guess Me', 'Self learning magician', '',
+         'https://ronavnery.github.io/CA-GuessMe/', 'JS, jQuery, CSS, FlexBox'),
+
+         createProject('Book Store', 'Admin panel for book store managers', '',
+         'https://ronavnery.github.io/book-shop/', 'JS, jQuery, Bootstrap, FlexBox')
+
         ]
 }
 

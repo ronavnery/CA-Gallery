@@ -12,9 +12,7 @@ function addEventListeners() {
         var projId = $(this).attr('data-id')
         renderProjModal(projId);
     })
-
     $('.contact-nav').click(openCanvas)
-
     $('.contact-submit').click(onContactSubmit)
     $('#input-message').on('keypress', function(ev) {
             if (ev.which === 13) onContactSubmit();

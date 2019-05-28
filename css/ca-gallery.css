@@ -8,11 +8,11 @@ p {
 }
 
 a {
-    color: #6b7caa;
+    color: #fec503;
 }
 
 a.active, a:active, a:focus, a:hover {
-    color: #fec503;
+    color: #6b7caa;
 }
 
 h1, h2, h3, h4, h5, h6 {
