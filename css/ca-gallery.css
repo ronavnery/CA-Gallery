@@ -1,7 +1,9 @@
 body {
     overflow-x: hidden;
-    font-family: 'Lilita One', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+
 
 p {
     line-height: 1.75;
@@ -17,7 +19,7 @@ a.active, a:active, a:focus, a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
-    font-family: 'Lilita One', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
@@ -35,6 +37,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     color: #fded93;
+    font-family: 'Montserrat';
 }
 
 .col-lg-12 section h2 {
@@ -280,10 +283,11 @@ header.masthead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100vh;
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 100px;
 }
 
@@ -292,7 +296,7 @@ header.masthead .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: 'Lilita One', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Lilita One', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -306,18 +310,18 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 200px;
     }
     header.masthead .intro-text .intro-lead-in {
-        font-size: 40px;
+        font-size: 30px;
         font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
-        font-family: 'Lilita One', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', 'Lilita One', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     header.masthead .intro-text .intro-heading {
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 100;
         line-height: 75px;
         margin-bottom: 50px;
@@ -341,7 +345,7 @@ header.masthead .intro-text .intro-heading {
     background-color: #16151d;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .col-sm-4 {
@@ -354,6 +358,9 @@ header.masthead .intro-text .intro-heading {
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer;
+    object-fit: cover;
+    width: 210px;
+    height: 145px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -365,7 +372,7 @@ header.masthead .intro-text .intro-heading {
     transition: all ease 0.5s;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
-    border-radius: 100px;
+    border-radius: 10px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -526,7 +533,10 @@ header.masthead .intro-text .intro-heading {
 
 .img-fluid {
     border: 1px solid #fded93;
-    border-radius: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 210px;
+    height: 145px;
 }
 
 .portfolio-modal button {
