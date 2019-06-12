@@ -20,8 +20,8 @@ function createProjects() {
          createProject('Guess Me', 'Self learning magician', '',
          'https://ronavnery.github.io/CA-GuessMe/','May 26th, 2019', 'JS, jQuery, CSS, FlexBox'),
 
-         createProject('Book Store', 'Admin panel for book store managers', '',
-         'https://ronavnery.github.io/book-shop/','May 27th, 2019', 'JS, jQuery, Bootstrap, FlexBox')
+         createProject('Yes-No', 'For the real decisions in life', '',
+         'https://ronavnery.github.io/CA-YesNo/','June 11th, 2019', 'JS, AJAX')
 
         ]
 }
