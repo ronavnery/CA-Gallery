@@ -539,6 +539,11 @@ header.masthead .intro-text .intro-heading {
     height: 145px;
 }
 
+.modal-body .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
 .portfolio-modal button {
     margin-bottom: 20px;
     background: none;
