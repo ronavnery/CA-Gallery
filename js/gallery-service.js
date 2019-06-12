@@ -21,7 +21,12 @@ function createProjects() {
          'https://ronavnery.github.io/CA-GuessMe/','May 26th, 2019', 'JS, jQuery, CSS, FlexBox'),
 
          createProject('Yes-No', 'For the real decisions in life', '',
-         'https://ronavnery.github.io/CA-YesNo/','June 11th, 2019', 'JS, AJAX')
+         'https://ronavnery.github.io/CA-YesNo/','June 11th, 2019', 'JS, AJAX'),
+
+         createProject('MemeFlix', 'Awesome meme generator', '',
+         'https://ronavnery.github.io/CA-MemeGenerator/','June 6th, 2019', 'JS, Responsive, Canvas, CSS')
+
+    
 
         ]
 }
